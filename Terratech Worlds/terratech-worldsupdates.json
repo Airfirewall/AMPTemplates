@@ -15,7 +15,7 @@
         "UpdateStageName":"Config Template Download",
         "UpdateSourcePlatform":"All",
         "UpdateSource":"FetchURL",
-        "UpdateSourceData":"https://raw.githubusercontent.com/Airfirewall/AMPTemplates/dev/terratech-worldstemplatesettings.json",
+        "UpdateSourceData":"https://raw.githubusercontent.com/Airfirewall/AMPTemplates/main/terratech-worldstemplatesettings.json",
         "UpdateSourceTarget":"{{$FullRootDir}}",
         "UpdateSourceArgs":"AMP_Terratech_Worlds_Settings.json",
         "OverwriteExistingFiles":true
@@ -24,7 +24,7 @@
         "UpdateStageName":"Winescript Download",
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"FetchURL",
-        "UpdateSourceData":"https://raw.githubusercontent.com/Airfirewall/AMPTemplates/dev/terratech-worldswinescript.sh",
+        "UpdateSourceData":"https://raw.githubusercontent.com/Airfirewall/AMPTemplates/main/terratech-worldswinescript.sh",
         "UpdateSourceArgs":"winescript.sh",
         "UpdateSourceTarget":"{{$FullInstanceDir}}",
         "OverwriteExistingFiles":true
