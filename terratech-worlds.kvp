@@ -78,7 +78,6 @@ Console.UserJoinRegex=^$
 Console.UserLeaveRegex=^$
 Console.UserChatRegex=^$
 Console.MetricsRegex=
-Console.SuppressLogAtStart=False
 Console.ActivateLogRegex=
 Limits.SleepMode=False
 Limits.SleepOnStart=False
