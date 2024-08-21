@@ -74,7 +74,7 @@ Console.SuppressLogAtStart=False
 Console.ActivateLogRegex=^$
 Console.UserActions={}
 Console.AppReadyRegex=^$
-Console.UserJoinRegex=^(?:\[[\d-\.:]+\]).*Login request.*Name=(?<username>.+).*userId: .*EOS:\|(?<userid>.+?).*$
+Console.UserJoinRegex=^(?:\[[\d-\.:]+\]).*Login request.*Name=(?<username>.+)\?Profile.*userId: .*EOS:\|(?<userid>.+?).*$
 Console.UserLeaveRegex=^(?:\[[\d-\.:]+\]).*UNetConnection::Close.*UniqueId: EOS:\|(?<userid>.+?).*$
 Console.UserChatRegex=^$
 Console.MetricsRegex=
