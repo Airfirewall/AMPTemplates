@@ -323,10 +323,10 @@
         "FieldName": "PlayerTechUsesPower",
         "InputType": "checkbox",
         "ParamFieldName": "$.PlanetSettings.Details.PlayerTechUsesPower",
-        "DefaultValue": "true",
+        "DefaultValue": "false",
         "EnumValues": {
-            "False": "false",
-            "True": "true"
+            "False": "true",
+            "True": "false"
         }
     },
     {
