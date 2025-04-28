@@ -310,7 +310,23 @@
             "1.10": "+10%",
             "1.25": "+25%",
             "1.5": "+50%",
-            "2": "+100%"
+            "2": "+100%",
+            "500002": "Infinite"
+        }
+    },
+    {
+        "DisplayName": "Allow Unlimited Energy Ammo",
+        "Category": "TerraTech Worlds:stadia_controller",
+        "Subcategory": "Gameplay:joystick:2",
+        "Description": "If set, allows unlimited energy for energy weapons",
+        "Keywords": "unlimited,ammo,energy,PlayerTechUsesPower",
+        "FieldName": "PlayerTechUsesPower",
+        "InputType": "checkbox",
+        "ParamFieldName": "$.PlanetSettings.Details.PlayerTechUsesPower",
+        "DefaultValue": "true",
+        "EnumValues": {
+            "True": "false",
+            "True": "true"
         }
     },
     {
@@ -356,21 +372,6 @@
         "EnumValues": {
             "False": "false",
             "True": "true"
-        }
-    },
-    {
-        "DisplayName": "Tech Yard Storage",
-        "Category": "TerraTech Worlds:stadia_controller",
-        "Subcategory": "Gameplay:joystick:2",
-        "Description": "Modifies the storage capacity of tech yards",
-        "Keywords": "tech,yard,storage,PlayerTechyardStorage",
-        "FieldName": "PlayerTechyardStorage",
-        "InputType": "enum",
-        "ParamFieldName": "$.PlanetSettings.Details.PlayerTechyardStorage",
-        "DefaultValue": "1",
-        "EnumValues": {
-            "1": "Normal",
-            "2": "Double"
         }
     }
 ]
