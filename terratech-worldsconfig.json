@@ -233,6 +233,21 @@
         }
     },
     {
+        "DisplayName": "Enable Structure Power Requirement",
+        "Category": "TerraTech Worlds:stadia_controller",
+        "Subcategory": "Gameplay:joystick:2",
+        "Description": "If set, Structures that requires power will require power operate",
+        "Keywords": "structure,power,generation,requirement,StructuresRequirePower",
+        "FieldName": "StructuresRequirePower",
+        "InputType": "checkbox",
+        "ParamFieldName": "$.PlanetSettings.Details.StructuresRequirePower",
+        "DefaultValue": "true",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
         "DisplayName": "Structure Power Generation Level",
         "Category": "TerraTech Worlds:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
@@ -246,6 +261,36 @@
             "1": "Normal",
             "1.5": "+50%",
             "2": "+100%"
+        }
+    },
+    {
+        "DisplayName": "Block Licensing",
+        "Category": "TerraTech Worlds:stadia_controller",
+        "Subcategory": "Gameplay:joystick:2",
+        "Description": "If set, Blocks/Parts for techs will require licensing before they can be stored in tech yard",
+        "Keywords": "block,licensing,techyard,BlockLicensingEnabled",
+        "FieldName": "BlockLicensingEnabled",
+        "InputType": "checkbox",
+        "ParamFieldName": "$.PlanetSettings.Details.BlockLicensingEnabled",
+        "DefaultValue": "true",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
+        "DisplayName": "Blocks Globally Accessible",
+        "Category": "TerraTech Worlds:stadia_controller",
+        "Subcategory": "Gameplay:joystick:2",
+        "Description": "If set, Blocks/Parts for techs can be accessed when your away from tech yard",
+        "Keywords": "block,licensing,techyard,access,BlocksGloballyAccessible",
+        "FieldName": "BlocksGloballyAccessible",
+        "InputType": "checkbox",
+        "ParamFieldName": "$.PlanetSettings.Details.BlocksGloballyAccessible",
+        "DefaultValue": "false",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
         }
     },
     {
