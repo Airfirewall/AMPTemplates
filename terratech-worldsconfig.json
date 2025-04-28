@@ -236,7 +236,7 @@
         "DisplayName": "Enable Structure Power Requirement",
         "Category": "TerraTech Worlds:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, Structures that requires power will require power operate",
+        "Description": "If set, structures that requires power will need generators to operate operate",
         "Keywords": "structure,power,generation,requirement,StructuresRequirePower",
         "FieldName": "StructuresRequirePower",
         "InputType": "checkbox",
@@ -267,7 +267,7 @@
         "DisplayName": "Block Licensing",
         "Category": "TerraTech Worlds:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, Blocks/Parts for techs will require licensing before they can be stored in tech yard",
+        "Description": "If set, blocks/parts for techs will require licensing before they can be stored in tech yard",
         "Keywords": "block,licensing,techyard,BlockLicensingEnabled",
         "FieldName": "BlockLicensingEnabled",
         "InputType": "checkbox",
@@ -282,7 +282,7 @@
         "DisplayName": "Blocks Globally Accessible",
         "Category": "TerraTech Worlds:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, Blocks/Parts for techs can be accessed when your away from tech yard",
+        "Description": "If set, Blocks/Parts for techs can be accessed when your tech is away from the tech yard",
         "Keywords": "block,licensing,techyard,access,BlocksGloballyAccessible",
         "FieldName": "BlocksGloballyAccessible",
         "InputType": "checkbox",
@@ -360,18 +360,18 @@
         }
     },
     {
-        "DisplayName": "Allow Unlimited Energy Ammo",
+        "DisplayName": "Tech Energy Weapon Power Requirement",
         "Category": "TerraTech Worlds:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, allows unlimited energy for energy weapons",
-        "Keywords": "unlimited,ammo,energy,PlayerTechUsesPower",
+        "Description": "If set, energy weapons on techs will require battery power and have recharge cooldown",
+        "Keywords": "unlimited,ammo,ammunition,energy,PlayerTechUsesPower",
         "FieldName": "PlayerTechUsesPower",
         "InputType": "checkbox",
         "ParamFieldName": "$.PlanetSettings.Details.PlayerTechUsesPower",
-        "DefaultValue": "false",
+        "DefaultValue": "true",
         "EnumValues": {
-            "False": "true",
-            "True": "false"
+            "False": "false",
+            "True": "true"
         }
     },
     {
