@@ -279,6 +279,36 @@
         }
     },
     {
+        "DisplayName": "Rising Cost of Block Licensing",
+        "Category": "TerraTech Worlds:stadia_controller",
+        "Subcategory": "Gameplay:joystick:2",
+        "Description": "If set, enables rising cost of licensing blocks/parts",
+        "Keywords": "block,part,licensing,techyard,StaticBlockPurchaseProgression",
+        "FieldName": "StaticBlockPurchaseProgression",
+        "InputType": "checkbox",
+        "ParamFieldName": "$.PlanetSettings.Details.StaticBlockPurchaseProgression",
+        "DefaultValue": "false",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
+        "DisplayName": "Percent of Discount to Block Licensing",
+        "Category": "TerraTech Worlds:stadia_controller",
+        "Subcategory": "Gameplay:joystick:2",
+        "Description": "Discount given to block licensing",
+        "Keywords": "block,part,discount,licensing,techyard,BlockPurchaseDiscountPercent",
+        "FieldName": "BlockPurchaseDiscountPercent",
+        "InputType": "number",
+        "MinValue": "0",
+        "MaxValue": "100",
+        "ParamFieldName": "$.PlanetSettings.Details.BlockPurchaseDiscountPercent",
+        "DefaultValue": "0",
+        "Placeholder": "0",
+        "EnumValues": {}
+    },
+    {
         "DisplayName": "Allow Blocks Globally Accessible Without Tech Yard",
         "Category": "TerraTech Worlds:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
@@ -417,6 +447,81 @@
         "EnumValues": {
             "False": "false",
             "True": "true"
+        }
+    },
+    {
+        "DisplayName": "Enable Creative Mode",
+        "Category": "TerraTech Worlds:stadia_controller",
+        "Subcategory": "Creative_Mode:tune:3",
+        "Description": "If set, enables creative mode and creative modifiers",
+        "Keywords": "Creative,CreativeMode,IsCreative",
+        "FieldName": "IsCreative",
+        "InputType": "checkbox",
+        "ParamFieldName": "$.PlanetSettings.Details.IsCreative",
+        "DefaultValue": "false",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
+        "DisplayName": "Hazard Damage - Creative Mode Only",
+        "Category": "TerraTech Worlds:stadia_controller",
+        "Subcategory": "Creative_Mode:tune:3",
+        "Description": "If set, elemental hazards like corrosion, cold, and heat will be disabled.",
+        "Keywords": "hazards,creative,CreativeMode,HazardsEnabled",
+        "FieldName": "HazardsEnabled",
+        "InputType": "checkbox",
+        "ParamFieldName": "$.PlanetSettings.Details.HazardsEnabled",
+        "DefaultValue": "false",
+        "EnumValues": {
+            "False": "true",
+            "True": "false"
+        }
+    },
+    {
+        "DisplayName": "Enemy Spawns - Creative Mode Only",
+        "Category": "TerraTech Worlds:stadia_controller",
+        "Subcategory": "Creative_Mode:tune:3",
+        "Description": "If set, disables enemy techs from spawning.",
+        "Keywords": "enemy,spawns,enemies,hazards,creative,CreativeMode,EnemiesEnabled",
+        "FieldName": "EnemiesEnabled",
+        "InputType": "checkbox",
+        "ParamFieldName": "$.PlanetSettings.Details.EnemiesEnabled",
+        "DefaultValue": "false",
+        "EnumValues": {
+            "False": "true",
+            "True": "false"
+        }
+    },
+    {
+        "DisplayName": "Unlimied Blocks/Weapons - Creative Mode Only",
+        "Category": "TerraTech Worlds:stadia_controller",
+        "Subcategory": "Creative_Mode:tune:3",
+        "Description": "If set, all blocks and weapons are accessible.",
+        "Keywords": "unlimited,block,part,creative,CreativeMode,BlocksUnlimited",
+        "FieldName": "BlocksUnlimited",
+        "InputType": "checkbox",
+        "ParamFieldName": "$.PlanetSettings.Details.BlocksUnlimited",
+        "DefaultValue": "false",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
+        "DisplayName": "Player Tech Damage - Creative Mode Only",
+        "Category": "TerraTech Worlds:stadia_controller",
+        "Subcategory": "Creative_Mode:tune:3",
+        "Description": "If set, all damage to tech is disabled.",
+        "Keywords": "damage,creative,CreativeMode,PlayerTakesDamage",
+        "FieldName": "PlayerTakesDamage",
+        "InputType": "checkbox",
+        "ParamFieldName": "$.PlanetSettings.Details.PlayerTakesDamage",
+        "DefaultValue": "false",
+        "EnumValues": {
+            "False": "true",
+            "True": "false"
         }
     }
 ]
